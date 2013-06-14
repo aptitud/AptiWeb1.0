@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+
+#viewport {
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* General settings */
+a {
+    color: black;
+    text-decoration: none;
+}
+img {
+    border:none;
+}
+p.paragraph {
+    color: white;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+img.button, .home-button {
+    position: absolute;
+    cursor: pointer;
+    cursor: hand;
+}
+
+div.aptitud-page {
+    position: relative;	
+    overflow: hidden;
+ 
+}
+
+/* Blog page */
+div.blog{
+    max-height: 80%;
+    margin: 5%;
+    color: white;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 13pt;
+    font-family: sans-serif;
+    overflow: hidden;
+    overflow-y:  scroll;
+    
+      
+}
+
+/*Aptituddagen */
+.aptitud-day-banner {
+    margin-top: 8%;
+    max-height: 200px;
+    max-width: 88%;
+}
+div.aptitud-day-text{
+    max-height: 60%;
+    margin: 5%;
+    color: white;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 13pt;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+/*Filosophy*/
+div.philosophyText{
+    max-height: 94%;
+    margin: 5%;
+    color: white;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 13pt;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+/* CALENDAR PAGE */
+#calendar-thx-image {
+    position: absolute;								
+    left: 1%; 
+    top: 1%; 
+    width:20%;
+    z-index: 1; 
+    }
+.aptitud-calendar-event {
+    background: #FFFFFF;
+    max-width: 30%;
+    margin: 10px;
+    text-align: left;
+    font-size: 10pt;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #505050;
+}
+.aptitud-calendar-event .title {
+    font-size: 11pt;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.aptitud-calendar-event .content {
+    overflow: auto;
+}
+.aptitud-calendar-event .time {
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+#calendar-container {
+    width: 90%;
+    height: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-top: 4%;
+}
+#calendar-thx-image {
+    position: absolute;								
+    left: 1%; 
+    top: 1%; 
+    width:20%;
+    z-index: 1; 
+    }
+.aptitud-calendar-event {
+    cursor: pointer;
+    cursor: hand;
+}
+    
+/*Vi Page*/ 
+#fellow-board {
+    position: relative;
+    width: 90%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fellow-board div.portrait {
+    position: absolute;
+}
+#fellow-board {
+    text-align: center;
+}
+#fellow-board .portrait-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Start*/
+
+#startPage img.home-image, #start-blog, #start-aptitud-day, #start-calendar 
+{
+    position: absolute;
+}
+#start-blog-preview { 
+    position: absolute; 
+    overflow: hidden; 
+    left: 8%; 
+    top: 42%; 
+    width: 82%; 
+    height: 42%; 
+    text-align: left; 
+    font-size: 8pt; }
+#start-calendar-preview { 
+    position: absolute; 
+    overflow: hidden; 
+    left: 20%; 
+    top: 25%; 
+    width: 65%; 
+    height: 65%; 
+    text-align: left; 
+    font-size: 10pt; 
+    z-index:100; }		
+#start-aptitud-day-date-preview { 
+    position: absolute; 
+    overflow: hidden; 
+    left: 33%; 
+    top: 73%; 
+    width: 30%; 
+    height: 8%; 
+    text-align: left; 
+    font-size: 8pt; 
+    z-index:100; }
+#start-aptitud-day-theme-preview { 
+    position: absolute; 
+    overflow: hidden; 
+    left: 21.5%; 
+    top: 82%; 
+    width: 30%; 
+    height: 8%; 
+    text-align: left; 
+    font-size: 8pt; 
+    z-index:100; }
+
+@media all and (orientation:portrait){
+    #start-benice { visibility: hidden;}
+    div.blog {font-size: 2em;}
+    p.paragraph {font-size: 2em;   }
+    #start-blog { left: 5%; top: 58%; width: 38%; }
+    #start-logo { left: 30%; top: 38%; width: 40%; }
+    #start-30sek { left: 45%; top: 32%; height: 8%; }
+    #start-calendar { left: 68%; top: 5%; width: 35%; }
+    #start-aptitud-day { left: 1%; top: 5%; width: 50%; }
+    #start-oredev { left: 66%; top: 74%; width: 30%; }
+    #start-jfokus { left: 49%; top: 65%; width: 22%; }
+    #start-we { left: 54%; top: 29%; width: 13%; }
+    #start-fb { left: 10%; top: 45%; width: 5%; }
+    #start-twitter { left: 16%; top: 46%; width: 5%; }
+    #start-linkedin { left: 22%; top: 44%; width: 5%; }
+   /* #start-klotter { left: 28%; top: 1%; width: 25%; }*/
+}
+
+@media all and (orientation:landscape) {
+    #start-benice { visibility: hidden;}
+    div.blog {font-size: 2em;}
+    p.paragraph {font-size: 2em;   }
+    #start-blog { left: 2%; top: 50%; width: 17%; }
+    #start-30sek { left: 49%; top: 17%; height: 14%; }
+    #start-logo { left: 30%; top: 25%; width: 40%; }
+    #start-calendar { left: 75%; top: 3%; width: 21%; }
+    #start-aptitud-day { left: 5%; top: 8%; width: 25%;}
+    #start-oredev { left: 66%; top: 72%; width: 18%; }
+    #start-jfokus { left: 22%; top: 60%; width: 15%; }
+    #start-we { left: 60%; top: 14%; width: 8%; }
+    #start-fb { left: 45%; top: 85%; width: 3%; }
+    #start-twitter { left: 50%; top: 86%; width: 3%; }
+    #start-linkedin { left: 55%; top: 84%; width: 3%; }
+    /*#blog-header {width:30%;margin-top: 7%; margin-bottom: 2%;}*/
+    /*#start-klotter { left: 25%; top: 1%; width: 15%; } */
+}
+@media all and (orientation:landscape) and (min-width:1025px){
+    div.blog {font-size: 1em;}
+    p.paragraph {font-size: 1em;   }
+    div.philosophyText{  margin-left: 25%;margin-right:25%;}
+    div.blog{  margin-left: 25%;margin-right:25%;}
+    div.aptitud-day-text{  margin-left: 30%;margin-right:30%;}
+    #start-benice { visibility: visible; width: 30%;  text-align: center;}
+}
+
+@media all and (orientation:portrait) and (min-width:801px){
+    div.blog {font-size: 1em;}
+    p.paragraph {font-size: 1em;   }
+    div.philosophyText{ margin-left: 15%; margin-right: 15%;}
+    div.blog{ margin-left: 15%; margin-right: 15%;}
+    div.aptitud-day-text{ margin-left: 15%;margin-right:15%;}
+    #start-benice { visibility: visible; width: 30%; text-align: center; }
+}
+.start-calendar-feed .title {
+    font-weight: bold;
+}
+
+.start-calendar-feed .content {
+    margin-bottom: 2%;
+}
