@@ -131,15 +131,11 @@ P {
     }
 
     #stnyg7 {
-        height: 20%;
-        bottom: 1%
+        width: 45%;
+        top: 10%;
+        left: 20%;
     }
-    #sumOf2013
-    {
-        width: 75%;
-        top: 5%;
-        left: 10%;
-    }
+    
 
 }
 
@@ -150,7 +146,9 @@ P {
 
     #stnyg7 {
         height: 25%;
-        top: 1%
+        top: 10%;
+        left: 10%;
+            
     }
 
     #klotter {
@@ -158,11 +156,6 @@ P {
         max-width: 150px;
         min-width: 80px;
     }
-    #sumOf2013
-    {
-        width: 30%; 
-        left: 35%;
-        top: 10%
-    }
+   
 
 }
