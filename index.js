@@ -4,6 +4,7 @@ function updateLayout() {
     document.getElementById("aptitudDayPage").setAttribute("height", window.innerHeight + 1);
     document.getElementById("fellowPage").setAttribute("height", window.innerHeight + 1);
     document.getElementById("bloggPage").setAttribute("height", window.innerHeight + 1);
+    document.getElementById("mapPage").setAttribute("height", window.innerHeight + 1);
 }
 
 jQuery(document).ready(function ($) {

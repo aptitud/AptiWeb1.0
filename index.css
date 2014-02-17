@@ -23,6 +23,12 @@ P {
         padding-left: 10%;
         padding-right: 10%;
     }
+    
+     #mapPage {
+        padding-top: 5px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 
     P {
         font-size: 0.6em;
@@ -43,6 +49,12 @@ P {
     }
 
     #bloggPage {
+        padding-top: 5px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    #mapPage {
         padding-top: 5px;
         padding-left: 15%;
         padding-right: 15%;
@@ -75,6 +87,12 @@ P {
         padding-left: 20%;
         padding-right: 20%;
     }
+    
+    #mapPage {
+        padding-top: 5px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
 
     P {
         font-size: 0.8em;
@@ -99,6 +117,12 @@ P {
     }
 
     #bloggPage {
+        padding-top: 10px;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    
+     #mapPage {
         padding-top: 10px;
         padding-left: 30%;
         padding-right: 30%;
