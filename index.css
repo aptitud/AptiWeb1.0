@@ -30,6 +30,12 @@ P {
         padding-right: 10%;
     }
 
+    #tweetMapPage {
+        padding-top: 5px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
     P {
         font-size: 0.6em;
     }
@@ -55,6 +61,12 @@ P {
     }
     
     #mapPage {
+        padding-top: 5px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    #tweetMapPage {
         padding-top: 5px;
         padding-left: 15%;
         padding-right: 15%;
@@ -94,6 +106,12 @@ P {
         padding-right: 15%;
     }
 
+    #tweetMapPage {
+        padding-top: 7px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
     P {
         font-size: 0.8em;
     }
@@ -123,6 +141,12 @@ P {
     }
     
      #mapPage {
+        padding-top: 10px;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+    #tweetMapPage {
         padding-top: 10px;
         padding-left: 30%;
         padding-right: 30%;
