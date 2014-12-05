@@ -6,8 +6,6 @@ function updateLayout() {
     document.getElementById("bloggPage").setAttribute("height", window.innerHeight + 1);
     document.getElementById("mapPage").setAttribute("height", window.innerHeight + 1);
     document.getElementById("tweetMapPage").setAttribute("height", window.innerHeight + 1);
-    //document.getElementById("tweetMapFrame").setAttribute("height", window.innerHeight * 0.8);
-    //document.getElementById("tweetMapFrame").setAttribute("width", window.innerWidth * 0.8);
 }
 
 jQuery(document).ready(function ($) {
