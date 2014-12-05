@@ -67,9 +67,9 @@ P {
     }
 
     #tweetMapPage {
-        padding-top: 5px;
+        /*padding-top: 5px;
         padding-left: 15%;
-        padding-right: 15%;
+        padding-right: 15%;*/
     }
 
     P {
@@ -107,9 +107,9 @@ P {
     }
 
     #tweetMapPage {
-        padding-top: 7px;
+        /*padding-top: 7px;
         padding-left: 20%;
-        padding-right: 20%;
+        padding-right: 20%;*/
     }
 
     P {
@@ -147,9 +147,9 @@ P {
     }
 
     #tweetMapPage {
-        padding-top: 10px;
+        /*padding-top: 10px;
         padding-left: 30%;
-        padding-right: 30%;
+        padding-right: 30%;*/
     }
 
     P {
@@ -205,4 +205,31 @@ P {
     }
    
 
+}
+
+/* Tweet map */
+#tweetMapFrame {
+    width: 300px;
+    height: 400px;
+}
+
+@media (min-width:600px) {    
+    #tweetMapFrame {
+        width: 500px;
+        height: 310px;
+    }
+}
+
+@media (min-width:800px) {    
+    #tweetMapFrame {
+        width: 640px;
+        height: 400px;
+    }
+}
+
+@media (min-width:1000px) {    
+    #tweetMapFrame {
+        width: 800px;
+        height: 500px;
+    }
 }
