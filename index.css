@@ -1,8 +1,13 @@
-P {
+p, ul {
     color: white;
     text-align: left;
     font-weight: lighter;
     font-family: sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
 }
 
 @media all {
@@ -23,7 +28,7 @@ P {
         padding-left: 10%;
         padding-right: 10%;
     }
-    
+
      #mapPage {
         padding-top: 5px;
         padding-left: 10%;
@@ -53,7 +58,7 @@ P {
         padding-left: 15%;
         padding-right: 15%;
     }
-    
+
     #mapPage {
         padding-top: 5px;
         padding-left: 15%;
@@ -87,7 +92,7 @@ P {
         padding-left: 20%;
         padding-right: 20%;
     }
-    
+
     #mapPage {
         padding-top: 5px;
         padding-left: 15%;
@@ -121,7 +126,7 @@ P {
         padding-left: 30%;
         padding-right: 30%;
     }
-    
+
      #mapPage {
         padding-top: 10px;
         padding-left: 30%;
@@ -159,7 +164,7 @@ P {
         top: 10%;
         left: 30%;
     }
-    
+
 
 }
 
@@ -171,7 +176,7 @@ P {
     #stnyg7 {
         height: 45%;
         top: 10%;
-        left: 10%;            
+        left: 10%;
     }
 
     #klotter {
@@ -179,6 +184,6 @@ P {
         max-width: 150px;
         min-width: 80px;
     }
-   
+
 
 }
