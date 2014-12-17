@@ -4,7 +4,6 @@ p, ul, li {
     font-weight: lighter;
     font-family: sans-serif;
 }
-
 a {
     color: white;
     text-align: left;
@@ -12,191 +11,161 @@ a {
     font-weight: lighter;
     font-family: sans-serif;
 }
-
 a:visited {
     font-weight: lighter;
 }
-
 @media all {
     #philosophyPage {
         padding-top: 5px;
         padding-left: 10%;
         padding-right: 10%;
     }
-
     #aptitudDayPage {
         padding-top: 5px;
         padding-left: 10%;
         padding-right: 10%;
     }
-
     #bloggPage {
         padding-top: 5px;
         padding-left: 10%;
         padding-right: 10%;
     }
-
-     #mapPage {
-        padding-top: 5px;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
-    P {
-        font-size: 0.6em;
-    }
-}
-
-@media all and (min-width:600px) {
-    #philosophyPage {
-        padding-top: 5px;
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-
-    #aptitudDayPage {
-        padding-top: 5px;
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-
-    #bloggPage {
-        padding-top: 5px;
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-
     #mapPage {
         padding-top: 5px;
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
-
-    P {
-        font-size: 0.7em;
-    }
-
-    .bloggText {
+    p {
         font-size: 0.6em;
     }
-}
-
-@media all and (min-width:800px) {
-    #philosophyPage {
-        padding-top: 7px;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-
-    #aptitudDayPage {
-        padding-top: 7px;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-
-    #bloggPage {
-        padding-top: 7px;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-
-    #mapPage {
-        padding-top: 5px;
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-
-    P {
+    ul, li {
         font-size: 0.8em;
     }
-
+}
+@media all and (min-width: 600px) {
+    #philosophyPage {
+        padding-top: 5px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    #aptitudDayPage {
+        padding-top: 5px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    #bloggPage {
+        padding-top: 5px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    #mapPage {
+        padding-top: 5px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    p, ul, li {
+        font-size: 0.7em;
+    }
+    .bloggText {
+        font-size: 0.6em;
+    }
+}
+@media all and (min-width: 800px) {
+    #philosophyPage {
+        padding-top: 7px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    #aptitudDayPage {
+        padding-top: 7px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    #bloggPage {
+        padding-top: 7px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    #mapPage {
+        padding-top: 5px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    p, ul, li {
+        font-size: 0.8em;
+    }
     .bloggText {
         font-size: 0.7em;
     }
 }
-
-@media all  and (min-width:1000px) {
+@media all and (min-width: 1000px) {
     #philosophyPage {
         padding-top: 10px;
         padding-left: 30%;
         padding-right: 30%;
     }
-
     #aptitudDayPage {
         padding-top: 10px;
         padding-left: 30%;
         padding-right: 30%;
     }
-
     #bloggPage {
         padding-top: 10px;
         padding-left: 30%;
         padding-right: 30%;
     }
-
-     #mapPage {
+    #mapPage {
         padding-top: 10px;
         padding-left: 30%;
         padding-right: 30%;
     }
-
-    P {
+    p, ul, li {
         font-size: 0.9em;
     }
-
     .bloggText {
         font-size: 0.8em;
     }
 }
-
-@media all and (orientation:portrait) {
+@media all and (orientation: portrait) {
     #senaste {
         height: 40%;
     }
-
-    p, ul, li {
-        font-size: 2em;
+    p {
+        font-size: 0.8em;
     }
-
+    ul, li {
+        font-size: 0.9em;
+    }
     .bloggText {
         font-size: 1.7em;
     }
-
     #klotter {
         width: 70%;
     }
-
     #stnyg7 {
         width: 50%;
         top: 10%;
         left: 30%;
     }
-
-
 }
-
-@media all and (orientation:landscape) {
+@media all and (orientation: landscape) {
     #senaste {
         width: 30%;
     }
-
     #stnyg7 {
         height: 45%;
         top: 10%;
         left: 10%;
     }
-
     #klotter {
         width: 40%;
         max-width: 150px;
         min-width: 80px;
     }
-
-
 }
-
 /* Tweet map */
- #tweetMapOverlay {
+
+#tweetMapOverlay {
     position: relative;
     top: 35px;
     left: 20px;
@@ -208,15 +177,12 @@ a:visited {
     border: 1px ridge #006600;
     opacity: 0.7;
     padding: 5px;
-
     display: none;
 }
-
 #tweetMapFrame {
     width: 100%;
     height: 100%;
 }
-
 #christmas-image {
     margin: 0px 0px 20px 20px;
     border: 10px solid white;

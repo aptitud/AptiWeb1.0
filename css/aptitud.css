@@ -10,14 +10,14 @@
     overflow: hidden;
     visibility: hidden;
 }
-
 /* General settings */
+
 a {
     color: black;
     text-decoration: none;
 }
 img {
-    border:none;
+    border: none;
 }
 p.paragraph {
     color: white;
@@ -31,15 +31,13 @@ img.button, .home-button {
     cursor: pointer;
     cursor: hand;
 }
-
 div.aptitud-page {
-    position: relative;	
+    position: relative;
     overflow: hidden;
- 
 }
-
 /* Blog page */
-div.blog{
+
+div.blog {
     max-height: 80%;
     margin: 5%;
     color: white;
@@ -48,18 +46,16 @@ div.blog{
     font-size: 13pt;
     font-family: sans-serif;
     overflow: hidden;
-    overflow-y:  scroll;
-    
-      
+    overflow-y: scroll;
 }
-
 /*Aptituddagen */
+
 .aptitud-day-banner {
     margin-top: 8%;
     max-height: 200px;
     max-width: 88%;
 }
-div.aptitud-day-text{
+div.aptitud-day-text {
     max-height: 60%;
     margin: 5%;
     color: white;
@@ -69,9 +65,9 @@ div.aptitud-day-text{
     font-family: sans-serif;
     overflow: hidden;
 }
-
 /*Filosophy*/
-div.philosophyText{
+
+div.philosophyText {
     max-height: 94%;
     margin: 5%;
     color: white;
@@ -81,15 +77,15 @@ div.philosophyText{
     font-family: sans-serif;
     overflow: hidden;
 }
-
 /* CALENDAR PAGE */
+
 #calendar-thx-image {
-    position: absolute;								
-    left: 1%; 
-    top: 1%; 
-    width:20%;
-    z-index: 1; 
-    }
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 20%;
+    z-index: 1;
+}
 .aptitud-calendar-event {
     background: #FFFFFF;
     max-width: 30%;
@@ -120,18 +116,18 @@ div.philosophyText{
     margin-top: 4%;
 }
 #calendar-thx-image {
-    position: absolute;								
-    left: 1%; 
-    top: 1%; 
-    width:20%;
-    z-index: 1; 
-    }
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 20%;
+    z-index: 1;
+}
 .aptitud-calendar-event {
     cursor: pointer;
     cursor: hand;
 }
-    
-/*Vi Page*/ 
+/*Vi Page*/
+
 #fellow-board {
     position: relative;
     width: 90%;
@@ -150,52 +146,54 @@ div.philosophyText{
     margin-left: auto;
     margin-right: auto;
 }
-
 /*Start*/
 
-#startPage img.home-image, #start-blog, #start-aptitud-day, #start-calendar 
-{
+#startPage img.home-image, #start-blog, #start-aptitud-day, #start-calendar {
     position: absolute;
 }
-#start-blog-preview { 
-    position: absolute; 
-    overflow: hidden; 
-    left: 8%; 
-    top: 42%; 
-    width: 82%; 
-    height: 42%; 
-    text-align: left; 
-    font-size: 8pt; }
-#start-calendar-preview { 
-    position: absolute; 
-    overflow: hidden; 
-    left: 20%; 
-    top: 25%; 
-    width: 65%; 
-    height: 65%; 
-    text-align: left; 
-    font-size: 10pt; 
-    z-index:100; }		
-#start-aptitud-day-date-preview { 
-    position: absolute; 
-    overflow: hidden; 
-    left: 33%; 
-    top: 73%; 
-    width: 30%; 
-    height: 8%; 
-    text-align: left; 
-    font-size: 8pt; 
-    z-index:100; }
-#start-aptitud-day-theme-preview { 
-    position: absolute; 
-    overflow: hidden; 
-    left: 21.5%; 
-    top: 82%; 
-    width: 30%; 
-    height: 8%; 
-    text-align: left; 
-    font-size: 8pt; 
-    z-index:100; }
+#start-blog-preview {
+    position: absolute;
+    overflow: hidden;
+    left: 8%;
+    top: 42%;
+    width: 82%;
+    height: 42%;
+    text-align: left;
+    font-size: 8pt;
+}
+#start-calendar-preview {
+    position: absolute;
+    overflow: hidden;
+    left: 20%;
+    top: 25%;
+    width: 65%;
+    height: 65%;
+    text-align: left;
+    font-size: 10pt;
+    z-index: 100;
+}
+#start-aptitud-day-date-preview {
+    position: absolute;
+    overflow: hidden;
+    left: 33%;
+    top: 73%;
+    width: 30%;
+    height: 8%;
+    text-align: left;
+    font-size: 8pt;
+    z-index: 100;
+}
+#start-aptitud-day-theme-preview {
+    position: absolute;
+    overflow: hidden;
+    left: 21.5%;
+    top: 82%;
+    width: 30%;
+    height: 8%;
+    text-align: left;
+    font-size: 8pt;
+    z-index: 100;
+}
 
 @media all and (orientation:portrait){
     #start-benice { visibility: hidden;}
